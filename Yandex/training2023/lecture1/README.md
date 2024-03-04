@@ -25,10 +25,10 @@ ls -l | perl -pe 'print " "'
 ls -l | pr -o l -t -a
 ```
 
-### 05 ```bash
+```bash
 ls -l | awk '{print " ",$0}'
 ```
 
-### 06 ```bash
+```bash
 ls -l | xargs -l{} echo ' {}'
 ```
